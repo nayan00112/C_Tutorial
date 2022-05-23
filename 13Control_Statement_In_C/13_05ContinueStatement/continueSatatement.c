@@ -18,6 +18,7 @@ void main()
             continue;
         }
     }
+}
     // Output:
     // The 5 / -5 = -1 (int value)
     // The 5 / -4 = -1 (int value)
@@ -29,4 +30,3 @@ void main()
     // The 5 / 3 = 1 (int value)
     // The 5 / 4 = 1 (int value)
     // The 5 / 5 = 1 (int value)
-}
