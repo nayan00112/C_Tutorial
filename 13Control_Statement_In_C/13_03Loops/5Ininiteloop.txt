@@ -1,0 +1,81 @@
+Infinite Loop in C:
+
+What is infinite loop?
+    An infinite loop is a looping constantly that does not terminate the loop and executes the loop forever.
+    It us also called an indefenite loop or an endless loop.
+    It either produces a continuous output or no output.
+
+When to use an infiniite loop:
+    An infinite loop is useful for those applications that accept the user input and generate the output continuously until the user exits from the application manuallay.
+    In the following situations, this type of loop can be used:
+
+        All the opearating system run in infinite loops as it does not exist after performing some task.
+        It comes out of an performing some task.
+        It comes out of an infinite loop ony when the user manually shuts down the system.
+
+        All the server run in an infinite loop as the server responds to all the client requests.
+        It comes out of an indefinite loop only when the administrator shuts down the server manuallay.
+
+        All the game also run in an infinite loop.
+        The game will accept the user requests until the user exits from the game.
+
+We can create an infinite loop through various loop structures.
+The following are the loop structures.
+The following are the loop structures through which we will define the infinite loop:
+    - for loop
+    - while loop
+    - do-while loop
+    - go ot statement
+    - C macros
+
+> for loop:
+    syntax:
+        for(;;)
+        {
+            // body of the for loop.
+        }
+
+> while loop:
+    syntax:
+        while(1)
+        {
+            // body of the while loop.
+        }
+
+> do-while loop:
+    syntax
+        do
+        {
+            // body of the while loop.
+        }whilw(1);
+
+
+goto statement:
+    We can also use the goto statement to define the infinite loop.
+    syntax:
+    ex. 1:
+        infinite_loop;
+        //body statement
+        goto infinite_loop
+    
+    ex. 2:
+        A;
+        //Body statement
+        goto A;
+
+Macros
+    We can also create the infinite loop with the help of a macro constant. Let's understand through an example.
+        #include<stdio.h>
+        void main(){
+            # define infiniteMacros for(;;)
+            infiniteMacros
+            {
+                printf("Hello \n");
+            }
+        }
+
+    In the above the code, we have defined a maro names as 'infinite', and its value is 'for(;;)'.
+    Whenever the word 'infinite' comes in a program then it will be replaced with a 'for(;;)'.
+
+Till now, we have seen various ways to define an infinite loop. However, we need some approch to come out of the infinite loop.
+In order to come out of the infinite loop, we can use the break statement.

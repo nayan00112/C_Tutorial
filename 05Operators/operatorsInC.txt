@@ -1,0 +1,13 @@
+An operator is simply a symbol that is used to perform operations. 
+There can be many types of operations like arithmatic, logical, bitwise, etc.
+
+There are following types of operators to perform different types of operations in C language.
+    -Arithmatic Operators
+    -Relational Operators
+    -Logical Operators
+    -Assignment Operators
+    -Increment and decrement Operators
+    -Conditional Operators
+    -Bitwise Operators
+    -Special Operators
+    

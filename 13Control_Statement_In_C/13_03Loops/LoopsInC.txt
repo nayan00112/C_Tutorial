@@ -1,0 +1,50 @@
+C loops:
+    The looping can be defined as repeating the same process muiltiple times until a specific condition satisfies
+    The looping simplifies the complex problem into the easy once.
+    It enables us to writing the same code again and again, we can repet the same code for a finite number of times.
+
+    Advantage of loopes
+        -It provides code reusability.
+        -Using loops, we do not need to write the same code again and again.
+        -Using loops, we can traverse over the elements of data structures(aray or linked lists).
+
+    Types of C Loops:
+        1. do while
+        2. while
+        3. for
+
+        (1) do-while loop in c:
+            The do-while loop continues until a givn condition satidfies.
+            It is also called post tested loop.
+            It is used when it is necessary to execute the loop at least once (mostly menu driven programs).
+            
+            syntax:
+                do{
+                    //code to be executed
+                }while(condition);
+
+        (2) while loop in C:
+            The while loop in C is to be used in the scenario where we don't know the number of iteration in advance.
+            The block of statements is executed in the while loop until the condition specified in the while loop is satisfied.
+            It is also called a pre-tested loop.
+            
+            syntax:
+                while{
+                    //code to be execute
+                }
+            
+        (3) for loop in C:
+            The for loop is used in the case where we need to execute some part of the code until the given condition is satisfied.
+            The for loop is also called as a per-tested loop.
+            It is better to use for loop if the number of iteration is known in advance.
+
+            syntax:
+                for{
+                    // code to be execute
+                }
+                
+    Nested Loops in C:
+        Nasted Loops also supports C language.
+        Nesting of loops is the feature in C that allows the looping of statemets inside another loop.
+        Any number of loops can be defined inside another loop, i.e., there is no restriction for defining any number of loops.
+        You can define any type of loop inside another loop; for example, you can define while loop inside a for loop.

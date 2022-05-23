@@ -1,0 +1,59 @@
+Programming Errors in C:
+    1. Syntx Error
+        Ex: 
+            a = 10;
+            printf("%d", a);
+            //a is undeclared.
+
+    2. Run-Time Error
+        Ex: divide by 0.
+
+    3. Linker Error
+        -Linker error ar emainly generated when the excecutable filoe of the program is not created.
+        ex: void Main() insted void main()
+
+    4. Logical Error
+        int dayameter = 6;
+        printf("Radious is %d", 2/6);
+
+    5. Samantic Error
+        -Use of a un-initialized variable.
+            int i;
+            i = i + 4;
+
+        -Type compatibility
+            int b = "integer";
+        
+        -Error in Expressions
+            int a, b, c;
+            a + b = c;
+
+        -Array index out of bound
+            int a[10];
+            a[10] = 34;
+            printf("%ls", a); // No output.
+
+More referance: https://www.javatpoint.com/programming-errors-in-c
+
+-----------------------------------------------------------------------------------------
+
+Compile time  vs Runtime error:
+    Compile time
+        -Syntex error
+        -Semantic error
+
+        Example :
+            -Syntex error, missing ';'.
+                int a, b 
+            -Semantic error:
+                a + b = c;
+
+    Runtime error
+        Example
+            divide by 0.
+                int a = 4;
+                int b = 0;
+                printf("a / b = %d", a/b);
+            
+            
+
