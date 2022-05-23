@@ -21,6 +21,7 @@ void main(){
     i++;
     if (i <= 10)
     goto lableCount;
+    
     // Output:
     // 4 *  1 = 4
     // 4 *  2 = 8
