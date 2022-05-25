@@ -1,3 +1,4 @@
+// Function without arguments and without return value.
 #include<stdio.h>
 void Hello();
 
