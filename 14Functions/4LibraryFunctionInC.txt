@@ -1,0 +1,48 @@
+Library function in C:
+    Library function are the builtin function in C that are grouped and placed at a common place called the Library.
+    Such functions are used to perform some specific operations. For example,
+    printf is a library function used to print on a console.
+    The library function are created by the designers of compilers.
+    All C standered library function are defined inside the different header files saved with the extension ".h".
+    We need to include these header files in our program to make use of the library function such as printf/scanf we need to include stdio.h in our orogram which is a header files that contains all the library function regrafing standered input/output.
+
+The list of mostely used header files is given below:
+
+    (1)	stdio.h	
+            This is a standard input/output header file. It contains all the library functions regarding standard input/output.
+
+    (2)	conio.h	
+            This is a console input/output header file.
+
+    (3)	string.h	
+            It contains all string related library functions like gets(), puts(),etc.
+
+    (4)	stdlib.h	
+            This header file contains all the general library functions like malloc(), calloc(), exit(), etc.
+
+    (5)	math.h	
+            This header file contains all the math operations related functions like sqrt(), pow(), etc.
+
+    (6)	time.h	
+            This header file contains all the time-related functions.
+
+    (7)	ctype.h	
+            This header file contains all character handling functions.
+
+    (8)	stdarg.h	
+            Variable argument functions are defined in this header file.
+
+    (9)	signal.h	
+            All the signal handling functions are defined in this header file.
+
+    (10)setjmp.h	
+            This file contains all the jump functions.
+
+    (11)locale.h	
+            This file contains locale functions.
+
+    (12)errno.h	
+            This file contains error handling functions.
+
+    (13)assert.h	
+            This file contains diagnostics functions.
