@@ -31,7 +31,7 @@ int main()
             printf("\nExist Done.\n");
             break;
         }
-        else if(choise > 5)
+        else if (choise > 5)
         {
             printf("Invilid Input. Try again...\n");
         }
@@ -126,7 +126,7 @@ Enter second number: 9
 Enter your choice: 4
 Enter first number: 5
 Enter second number: 0
-Error, Divided by 0 
+Error, Divided by 0
 1. Addition
 2. Substraction
 3. Muiltiplicatuon

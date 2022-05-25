@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 void ElectionValidation();
 
 void main()
@@ -7,14 +7,16 @@ void main()
     printf("Enter your age: ");
     scanf("%d", &age);
     ElectionValidation(age);
-    
 }
 
-void ElectionValidation(int age){
-    if (age > 18){
+void ElectionValidation(int age)
+{
+    if (age > 18)
+    {
         printf("You can voteing.\n");
     }
-    else{
+    else
+    {
         printf("You can not voteing now.\n");
     }
 }
