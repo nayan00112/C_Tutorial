@@ -15,13 +15,13 @@ The list of mostely used header files is given below:
             This is a console input/output header file.
 
     (3)	string.h	
-            It contains all string related library functions like gets(), puts(),etc.
+            It contains all string related library functions like gets(), puts() etc.
 
     (4)	stdlib.h	
-            This header file contains all the general library functions like malloc(), calloc(), exit(), etc.
+            This header file contains all the general library functions like malloc(), calloc(), exit()  etc.
 
     (5)	math.h	
-            This header file contains all the math operations related functions like sqrt(), pow(), etc.
+            This header file contains all the math operations related functions like sqrt(), pow()  etc.
 
     (6)	time.h	
             This header file contains all the time-related functions.
