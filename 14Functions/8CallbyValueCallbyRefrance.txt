@@ -1,5 +1,0 @@
-Refrance: 
-https://www.scaler.com/topics/c/call-by-value-and-call-by-reference-in-c/
-
-https://www.javatpoint.com/call-by-value-and-call-by-reference-in-c
-
