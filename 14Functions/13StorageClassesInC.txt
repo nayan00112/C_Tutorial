@@ -64,7 +64,7 @@ Storage Classes in C
         > We can not dereference the register variables, i.e., we cannot use &operator for the register variable.
         > The access time of the register variables is faster than the automatic variable.
         > The initial default value of the register local variable is 0.
-        > The register keyword is used for the variable which should be store in the CPU register. However, it is compiler?s choice wherther or not; the variabes can be stored in the register.
+        > The register keyword is used for the variable which should be store in the CPU register. However, it is compilers choice wherther or not; the variabes can be stored in the register.
         > We can store pointers into the register, i.e., a register since we can not use more into the register since we can not use more than one storage specifire for the same variable.
         > Static variable can not be stored into the register, i.e., a register can store the address of a variable.
         > Static variable can not be stored into the register since we can not use more than one storage specifier for the same variable.
