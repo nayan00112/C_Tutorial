@@ -1,4 +1,5 @@
 Storage Classes in C
+    https://www.javatpoint.com/storage-classes-in-c
     Storage classes in C are used to determine the lifetime, visibility, memory location and initial value of a variable.
     There are four of storage classes in Classes.
         1. Automatic
@@ -21,6 +22,19 @@ Storage Classes in C
         > The keyword used for defined automatic variable is auto.
         > Every local variable is automatic in C by default.
 
+        Example:
+            #include <stdio.h>
+            int main()
+            {
+                int a;
+                int bb;
+                char b;
+                printf("%d is value one.\n%d is value two.\n%c is value three", a, bb, b);
+                return 0;
+                // Output: Garbage Garbage
+            }
+
+
 
     2. External:
         Storage Classes: Extern
@@ -37,6 +51,17 @@ Storage Classes in C
         > An external variable can be declared many times but can be initialized at only once.
         > If a variable is declared as external then the compilar searches for that  variable to be initialized somewhere in the program which may be extern or static. If it is not, then the compilar will show an error.
         
+        Example:
+            #include <stdio.h>
+            int main()
+            {
+                extern int a;
+                printf("%d", a);
+            }
+            //Output:
+            //main.c:(.text+0xa): undefined reference to `a'
+            //collect2: error: ld returned 1 exit status
+
     
     3. Static:
         Storage Classes: static
@@ -51,6 +76,15 @@ Storage Classes in C
         > Default initial value of the static integral variable is 0 otherwise null.
         > The visibility of the static globle variable is limited to the file in which it has declared.
         > The keyword used ti define static variable is static.
+
+        Example:
+            #include <stdio.h>
+            int main()
+            {
+                static int a;
+                printf("%d", a);
+            }
+            //Output: 0
 
 
     4. Register:
@@ -69,3 +103,12 @@ Storage Classes in C
         > Static variable can not be stored into the register, i.e., a register can store the address of a variable.
         > Static variable can not be stored into the register since we can not use more than one storage specifier for the same variable.
         
+        Example:
+            #include <stdio.h>
+            int main()
+            {
+                register int a;
+                printf("%d", a);
+            }
+            //Output: 1
+            {{Recommanded: Read Documentation. https://www.javatpoint.com/storage-classes-in-c }}
