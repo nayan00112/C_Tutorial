@@ -1,0 +1,71 @@
+Storage Classes in C
+    Storage classes in C are used to determine the lifetime, visibility, memory location and initial value of a variable.
+    There are four of storage classes in Classes.
+        1. Automatic
+        2. External
+        3. Static
+        4. Register
+
+    1. Automatic:
+        Storage Classes: auto
+        Storage Place: RAM
+        Default Value: Garbage Value
+        Scope: Local
+        Lifetime: Within function
+
+        > Automatic variable are allocated memory automatically at runtime.
+        > The visibility of the automatic variable is limited to the block in which they are defined.
+          The scope of the automatic variable is limited to the block in which they are defined.
+        > The automatic variable are initialized to garbage by default.
+        > The memory assigned to automatic variable gets freed upon exiting from the block.
+        > The keyword used for defined automatic variable is auto.
+        > Every local variable is automatic in C by default.
+
+
+    2. External:
+        Storage Classes: Extern
+        Storage Place: RAM
+        Default Value: Zero
+        Scope: Globle
+        Lifetime: Till the end of the main program.
+                  Maybe declared anywhere in the program.
+
+        > The external storage class is used to tell the compiler that the variable defined as extern is declared with an extern linkage elsewhere in the program.
+        > The variable declared as extern are not allocated any memory. It is only declaration and intended to specify that the variable is declared elsewhere in the program.
+        > The default initial value of external integral type is 0 otherwise null.
+        > We can only initialize the extern variable globally, i.e., we can initialize the external variable within any block or method.
+        > An external variable can be declared many times but can be initialized at only once.
+        > If a variable is declared as external then the compilar searches for that  variable to be initialized somewhere in the program which may be extern or static. If it is not, then the compilar will show an error.
+        
+    
+    3. Static:
+        Storage Classes: static
+        Storage Place: RAM
+        Default Value: Zero
+        Scope: Local
+        Lifetime: Till the end of the main program, retains value between muiltiple functions call.
+
+        > The variable defined as static specifier can hold their value between the multiple function calls.
+        > Static local variable are visible only to the function or the block in which they are defined.
+        > A same static variable can be declared many times but you can be assigned at only one times.
+        > Default initial value of the static integral variable is 0 otherwise null.
+        > The visibility of the static globle variable is limited to the file in which it has declared.
+        > The keyword used ti define static variable is static.
+
+
+    4. Register:
+        Storage Classes: Register
+        Storage Place: RAM
+        Default Value: Garbage Value
+        Scope: Local
+        Lifetime: Within the function.
+
+        > The variable defined as the register is allocated the memory into the CPU registrs depending upon the size of the memory remaininng in the CPU.
+        > We can not dereference the register variables, i.e., we cannot use &operator for the register variable.
+        > The access time of the register variables is faster than the automatic variable.
+        > The initial default value of the register local variable is 0.
+        > The register keyword is used for the variable which should be store in the CPU register. However, it is compiler?s choice wherther or not; the variabes can be stored in the register.
+        > We can store pointers into the register, i.e., a register since we can not use more into the register since we can not use more than one storage specifire for the same variable.
+        > Static variable can not be stored into the register, i.e., a register can store the address of a variable.
+        > Static variable can not be stored into the register since we can not use more than one storage specifier for the same variable.
+        
