@@ -60,8 +60,21 @@ void main()
     printf("%p\n", ptr_C); // Reference: Output the memory address of c with the pointer.
     printf("%d\n", *ptr_C); // Dereference: Output the value of c with the pointer
     printf("%d\n", ptr_C);
+    printf("%x\n", ptr_C);
     // Output:
-    // 0000007ce37ff884
+    // 000000d5a57ffda4
     // 2
-    // -478152572 {{ int version of "0000007ce37ff884" may be.}}
+    // -1518338652
+    // a57ffda4
+
+
+    printf("%p\n", &c); 
+    printf("%d\n", &c); 
+    printf("%d\n", &c);
+    printf("%x\n", &c);
+    // Output:
+    // 000000d5a57ffda4
+    // -1518338652
+    // -1518338652
+    // a57ffda4
 }
