@@ -1,0 +1,12 @@
+// https://www.javatpoint.com/pointer-arithmetic-in-c
+
+Pointer Arithmetic in C
+    We can perform arithmetic operations on the pointers like addition, subtraction, etc.
+    However, as we know that pointer contains the address, the result of an arithmatic operation performed on the  pointer will also be a poinnter if the order operand is of type integer.
+    In pointer-form-pointer subtraction, the  result will be an integer value.
+    Following arithmetic operations are possinle on the pointer in C language.
+        > Increment
+        > Decremetn
+        > Addition
+        > Subtraction
+        > Comparison
