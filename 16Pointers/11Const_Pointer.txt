@@ -1,0 +1,30 @@
+https://www.javatpoint.com/const-pointer-in-c
+
+
+const pointer in C: {Constant Pointer >> Not Change Address}
+
+    A constant pointer in C cannot change the address of the variable to which it is pointing, 
+    i.e. the address will remaain constant.
+    Therefore, we can say that if a constant pointer is pointing to some variable, then it cannot point to any other variable.
+
+        Syntax of Constant Pointer:
+            <type of pointer> *const <name of pointer>
+            eg. int *const ptr
+
+
+Pointer to Constant: {Pointer to Constant >> Cannot change the value}
+
+    A pointer to constant is a pointer through which the value of the variable that the pointer points cannot be changed.
+    The address of these pointers can be changed, but the value of the  variable that the pointer points cannot be changed.
+
+        Syntax of Pointer to Constant:
+            const <type of pointer>* <name of pointer>
+            eg. const int* ptr;
+
+
+Constant Pointer to a Constant: {neither address nor value change}
+    A consant pointer to a constant is a pointer which is a combination of the above two pointer, which is a combination of the above two pointers.
+    It can neither change the address of the variable to which it is pointing nor it can change the value placed at this address.
+        Syntax:
+            const <type of pointer> * const <type of pointer>
+            eg. const int* const ptr;
