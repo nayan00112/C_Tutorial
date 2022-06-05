@@ -1,0 +1,1 @@
+// https://www.javatpoint.com/function-pointer-as-argument-in-c
