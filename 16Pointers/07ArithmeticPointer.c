@@ -37,7 +37,7 @@ void main()
 }
 
 /*
-ILLEGAL arithmatic with pointer.
+ILLEGAL arithmatic with pointer. Where "add" is pointer variable.
     > add + add = illegal
     > add * add = illegal
     > add % add = illegal

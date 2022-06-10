@@ -1,6 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "Disabled",
     "files.associations": {
-        "ASCII.C": "cpp"
+        "ASCII.C": "cpp",
+        "malloc.h": "c"
     }
 }
