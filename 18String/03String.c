@@ -28,7 +28,7 @@ int main()
     It is clear from the output that, the above code will not work for space separated string.
     To make this code working for the space separated string, the minor changes required in the scanf function, i.e., instead of writing scanf("%s", name), we must wire: scanf("%[^\n]s", s) which instructs the compilar to store the string name while the new line (\n) is encountered.
     Let's consider the following example to store the space-separated strings.
-    {Next Code}
+    {Refer Next Code}
     
     Here We must also notice thet we do not have to use address of (&) operator in scanf to store a striong since name is an array of characters and the name of the array, 
     i.e., name insicates the base assress of the string (character array) therefore we need not use & with it.
