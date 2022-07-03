@@ -34,7 +34,7 @@ int main()
     count = 0;
     i = 0;
 
-    // > By using the null character.
+    // > By using the null character. // I like it.
     while (c[i] != NULL)
     {
         if (c[i] == 'a' || c[i] == 'e' || c[i] == 'o' || c[i] == 'o' || c[i] == 'u')
