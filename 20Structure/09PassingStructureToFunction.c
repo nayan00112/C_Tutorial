@@ -36,7 +36,6 @@ void display(struct employee emp){
     printf("-%s\n-%s\n-%d\n-%s\n", emp.name, emp.add.city, emp.add.pin, emp.add.phone);
 }
 
-
 /*
 Output:
 
