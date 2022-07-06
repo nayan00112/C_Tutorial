@@ -1,0 +1,47 @@
+The structure can be nested in the following ways.
+    1. By separate structure
+    2. By Embedded structure
+
+1. Seperate Structure:
+    Here, we create two structure, but the dependent structure should be used inside the main structure as a member.
+    Consider the following example:
+
+        struc Data
+        {
+            int dd;
+            int mm;
+            int yyyu;
+        };
+        struct Employee
+        {
+            int id;
+            char name[20];
+            struct Date doj;
+        }emp1;
+
+        As you can see, doj(date of joing) is a the variable fo type Date.
+        Here doj is used as a member in Employee structture.
+        In this way way, we can used Date structure in many structure.
+
+2. Embedded Structure:
+    The embedded structure enables us to declarer the structure inside the structure. Hence, it requires less line of code but it can not be used in muiltiple data structures.
+    Consider the following example.
+
+        struct Employee
+        {
+            int id;
+            char name[20];
+            struct Date
+            {
+                int dd;
+                int mm;
+                int yyyy;
+            }doj;
+        }emp1;
+
+Accessing Nested Structure 
+    We can access the member of the nested structurer by OuterStructure.NestedStructure.member as given below:
+        e1.doj.dd
+        e1.doj.mm
+        e1.doj.yyyy
+
