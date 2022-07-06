@@ -32,3 +32,5 @@ int main()
     printf("%lu", sizeof(s1)); // 68
     return 0;
 }
+
+// more memory than privious...
