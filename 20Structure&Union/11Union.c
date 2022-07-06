@@ -1,5 +1,4 @@
 // https://www.javatpoint.com/c-union
-//compiler use: https://www.onlinegdb.com/online_c_compiler
 
 // Union
 
@@ -25,7 +24,7 @@ struct student
     char phoneNo[14];
 };
 
-int main()
+void main()
 {
     struct student s1;
     //s1.name = "Nayan"; //Wrong Way, True way given below:
@@ -41,7 +40,6 @@ int main()
     strcpy(s1.addr.city, "Anjar");
     s1.addr.pincode = 3701;
 
-    printf("%u", sizeof(s1)); //56
-    return 0;
+    printf("%ld", sizeof(s1)); //56
 }
 
