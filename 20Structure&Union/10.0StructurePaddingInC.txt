@@ -1,0 +1,4 @@
+It is good to read this.
+
+https://www.javatpoint.com/structure-padding-in-c
+
