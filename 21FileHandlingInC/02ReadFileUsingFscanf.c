@@ -8,10 +8,8 @@ int main()
 
     FILE *fp;
     fp = fopen("01MyFirstFile.txt", "r"); // File has text "First File Text."
-
     fscanf(fp, "%s", s);
-    
     fclose(fp);
-    printf("%s\n", s); // First
+    printf("%s\n", s); // First {due to fscanf function.}
     return 0;
 }
