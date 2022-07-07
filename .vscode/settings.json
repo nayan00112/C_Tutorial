@@ -2,6 +2,7 @@
     "C_Cpp.errorSquiggles": "Disabled",
     "files.associations": {
         "ASCII.C": "cpp",
-        "malloc.h": "c"
+        "malloc.h": "c",
+        "stdio.h": "c"
     }
 }
