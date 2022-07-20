@@ -1,0 +1,16 @@
+// #error
+
+// #include <stdio.h>
+// #ifndef __MATH_H
+// #error First include then compile
+// #else
+
+// int main()
+// {
+//     printf("4^3= %d", sqrt(4,3));
+//     return 0;
+// }
+// #endif
+
+// Output: Error (math.h not include)
+
