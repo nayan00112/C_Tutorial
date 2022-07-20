@@ -1,0 +1,73 @@
+C Preprocessor Directives
+    The C Preprocessor is a micro processir that is used by compiler to transform your code before compilation.
+    It is called micro preprocessor because it allows us to add macros.
+
+    Note: Preprocessor Directives are executed before compilation.
+
+    COMPILER >> PREPROCESSOR >> EXPANDED SOURCE CODE >> COMPILER
+
+    All preprocessor Directives starts with hash # symbol.
+
+        Let's see a list of preprocessor directives.
+            > #include
+            > #define
+            > #undef
+            > #ifdef
+            > #ifndef
+            > #if
+            > #else
+            > #elif
+            > #endif
+            > #error
+            > #pragma
+
+__________________________________________________________________________________
+
+What is Macros? [C Macros]:
+    A macro is a segment of code which is replaced by the value of macro.
+    Macro is defined by #define directive.
+    There are two types of macros:
+        1. Object-like Macros
+        2. Function-like macros
+
+    1. Object-like Macros:
+        The Object-like macros is an identifier that is replaced by value.
+        It is widely used to represent numerical constant. For example:
+
+            #define PI 3.14
+        
+        Here, PI is the macro name which will be replaced by the value 3.14.
+
+    2. Function-like Macros:
+        The Function-like macros looks like function call.
+        For example:
+
+            #define MIN(a,b) ((a)<(b)?(a):(b))
+
+        Here, MIN is the macro name.
+
+__________________________________________________________________________________
+    
+C Predefined macros
+    ANSI C define many predefined macros that can be used in c program.
+
+    1. __DATE__
+        > represents current date in "MMM DD YYYY" formate.
+    
+    2. __TIME__
+        > represents current time in "HH:MM:SS" format.
+
+    3. __FILE__
+        > represent current file name.
+
+    4. __LINE__
+        > represent current line number.
+
+    5. __STDC__
+        > It is defined as 1 when compiler compiles with the ANSI standard.
+
+__________________________________________________________________________________
+
+https://www.javatpoint.com/c-preprocessor
+
+__________________________________________________________________________________
