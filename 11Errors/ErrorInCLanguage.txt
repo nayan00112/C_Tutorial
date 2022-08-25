@@ -9,7 +9,7 @@ Programming Errors in C:
         Ex: divide by 0.
 
     3. Linker Error
-        -Linker error ar emainly generated when the excecutable filoe of the program is not created.
+        -Linker error ar emainly generated when the excecutable file of the program is not created.
         ex: void Main() insted void main()
 
     4. Logical Error

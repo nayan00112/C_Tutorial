@@ -7,7 +7,7 @@ void main(){
         As we know that non-static functions are global by default means that the function can be accessed outside the file also, but if we declare the function as static, then it limits the function scope. 
         The static function can be accessed within a file only.
 
-        A static function in C a function thet has a scope that is limitdd to its object file.
+        A static function in C a function thet has a scope that is limited to its object file.
         This means that the static function is only visible in its object file. 
         A sunction can be declared as static function by placing tha static keyword before the function name.
 

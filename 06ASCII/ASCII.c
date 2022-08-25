@@ -15,4 +15,7 @@ void main()
 
     printf("The ascii value of the 'D' char is %d.\n", 'D');
     //The ascii value of the 'D' char is 68.
+
+    printf("The ascii value of the 'a' char is %d.\n", 'a');
+    // The ascii value of the 'a' char is 97.
 }

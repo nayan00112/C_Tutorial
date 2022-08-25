@@ -23,6 +23,7 @@ void main(){
     printf("a|b is %d \n", a|b);
     printf("a^b is %d \n", a^b);
     //printf("a~b is %d \n", a~b);
+    printf("~4 is %d \n", ~4);
     printf("a<<b is %d \n", a<<b);
     printf("a>>b is %d \n", a>>b);
 
@@ -31,6 +32,7 @@ void main(){
         a&b is 4
         a|b is 12
         a^b is 8
+        ~4 is -5
         a<<b is 16384
         a>>b is 0
     */

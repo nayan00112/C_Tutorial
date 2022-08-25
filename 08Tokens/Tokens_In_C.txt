@@ -17,7 +17,7 @@ Classification of tokens in C
     > Keyword in C:
         Keyword in C can be define as the pre-define or the reserved word havaing its own importance, and each keyword has its own functionality.
         Since keywords are pre-define word used by the compilar, so they cannot be used as the variable names.
-        If the keyword asr used the variable name, it means that we are assigning a different meaninf to the keyword, whichis not allowed.
+        If the keyword are used the variable name, it means that we are assigning a different meaning to the keyword, which is not allowed.
         C language support 32 keywords given below.
            -> auto
            -> break
