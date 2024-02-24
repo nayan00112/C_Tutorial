@@ -21,7 +21,7 @@ void main()
     A pointer is a variable that store the memory address of another variable as its value.
 
     A pointer variable points to a data type (like int) of the same type and created with * operator.
-    The address of the variable you're workinf with is assigned to the pointer.
+    The address of the variable you're working with is assigned to the pointer.
     */
 
     int b = 456;   // An int variable

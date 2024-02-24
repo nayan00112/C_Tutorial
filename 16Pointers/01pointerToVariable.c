@@ -8,7 +8,7 @@ void main()
 
     printf("The value of a is %d.\n", a);
     printf("The value address of pointer p is %x.\n", p); // %x -> unsigned hexadecimal
-    printf("The value address of pointer p is %p.\n", p); // %x -> unsigned hexadecimal
+    printf("The value address of pointer p is %p.\n", p); 
     printf("The value of pointer p is %d.\n", *p);
     printf("The value of p is %d.\n", p);
     // Output:
